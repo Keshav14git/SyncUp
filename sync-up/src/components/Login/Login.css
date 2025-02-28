@@ -1,0 +1,142 @@
+/* Professional and Sleek Login Page Styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.Login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px; /* Increased gap */
+    background: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+
+.items {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(8px);
+    max-width: 350px;
+}
+
+.items h2 {
+    font-size: 28px;
+    color: #a443ea;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.items p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    max-width: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid #a443ea;
+    outline: none;
+    background: transparent;
+    color: #6a1bb7;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+    border-color: #6a1bb7;
+    box-shadow: 0px 0px 5px rgba(164, 67, 234, 0.5);
+}
+
+label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+}
+
+label img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+label img:hover {
+    transform: scale(1.1);
+}
+
+#login {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background: linear-gradient(90deg, #a443ea, #6a1bb7);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    transition: all 0.3s ease-in-out;
+}
+
+#login:hover {
+    background: linear-gradient(90deg, #2ff338, #00C853);
+    transform: scale(1.03);
+    box-shadow: 0px 4px 12px rgba(47, 243, 56, 0.4);
+}
+
+.logo {
+    perspective: 1000px;
+}
+
+.logo img {
+    width: 160px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    transition: transform 0.6s, scale 0.3s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.logo img:hover {
+    transform: rotateY(360deg) scale(1.8);
+}

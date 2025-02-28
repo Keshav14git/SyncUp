@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: " lucida sans unicode", "Lucida Grande", sans-serif;
+}
+
+body{
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    width: 200vh;
+    height: 95vh;
+    background-color: #E6E6FA to #FFFFFF;
+    border : 3px solid #a443ea;
+    border-style: ridge;
+    box-shadow:  10px 20px 40px rgba(0, 0, 0, 0.685);
+    border-radius: 10px;
+    display: flex;
+    
+}
+

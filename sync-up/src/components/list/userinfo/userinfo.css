@@ -1,0 +1,43 @@
+.userinfo{
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            
+        }
+
+        h3{
+            color: #a443ea;
+            font-style: bold;
+        }
+    }
+
+    .icons{
+        display: flex;
+        gap: 8px;
+        padding: 12px;
+
+        img{
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            filter: invert(21%) sepia(93%) saturate(3863%) hue-rotate(248deg) brightness(96%) contrast(95%);
+
+
+            
+        }
+    }
+
+}
+

@@ -1,0 +1,127 @@
+.detail{
+    flex:1.5;
+
+    .user{
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        border-bottom: 1px solid #b073e0;
+    
+
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      h2{
+        padding: 7px;
+        color: #741cb8;
+        border-radius: 10px;
+      }
+
+      h3{
+        font-size: 10px;
+        color: rgb(15, 1, 20);
+        font-weight: 300px;
+        
+      }
+   }
+
+   .info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+
+    span{
+        font-size: 13px;
+        color: #741cb8;
+    }
+
+    .option{
+        .title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            img{
+                width: 18px;
+                height: 18px;
+                margin-left: 10px;
+                cursor: pointer;
+                border-radius: 50%;
+                filter: invert(21%) sepia(93%) saturate(3863%) hue-rotate(248deg) brightness(96%) contrast(95%);
+
+            }
+        }
+
+        .photos{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 15px;
+
+
+            .photoitem{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            
+
+
+                .photodetail{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 7px;
+                        object-fit: cover;
+
+                    }
+
+                    span{
+                        font-size: 14px;
+                        color: rgb(42, 37, 37);
+                        font-weight: 300;
+                    }
+                }
+
+                .icon{
+                    width: 20px;
+                    height: 20px;
+                    filter: invert(21%) sepia(93%) saturate(3863%) hue-rotate(248deg) brightness(96%) contrast(95%);
+                    cursor: pointer;
+                    border-radius: 50%;
+
+                }
+            }
+
+        }
+     }
+   }
+   
+   #edit,#logout{
+
+    background-color: #9B2C2C;
+    color: white;
+    padding: 10px 5px;
+    border: 1px solid #6e0101;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #6e0101;
+    }
+    
+   }
+           
+ }
