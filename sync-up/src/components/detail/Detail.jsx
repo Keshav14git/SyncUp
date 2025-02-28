@@ -159,7 +159,7 @@ const Detail = () => {
           {expandedSections.sharedFiles && (
             <div className="files-content">
               {/* Shared files content would go here */}
-              <p>No shared files</p>
+              <p>No shared file</p>
             </div>
           )}
         </div>
